@@ -2,11 +2,11 @@
         "maybe maybe not",
         "im good",
         "thank you",
-        "it will work"
-        "i dont now"
-        "My name is Robot"
-        "I do not feel good"
-        "I am 1 year old and how old are you?"
+        "it will work",
+        "i dont now",
+        "My name is Robot",
+        "I do not feel good",
+        "I am 1 year old and how old are you?",
 
     ];
     const message = document.querySelector(".message");
@@ -14,6 +14,6 @@
     const button = document.querySelector("button");
     button.addEventListener("click", function () {
         let res = Math.floor(Math.random() * answerArray.length);
-        message.innerText = question.value + " " + answerArray[res];
+        message.innerText =  " " + answerArray[res];
         question.value = "";
     });
