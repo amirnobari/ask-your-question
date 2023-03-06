@@ -1,9 +1,10 @@
-    const answerArray = ["i dont know",
+    const answerArray = [
+        "i dont know",
         "maybe maybe not",
         "im good",
         "thank you",
         "it will work",
-        "i dont now",
+        "LoL",
         "My name is Robot",
         "I do not feel good",
         "I am 1 year old and how old are you?",
